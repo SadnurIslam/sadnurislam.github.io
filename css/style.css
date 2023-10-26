@@ -1,12 +1,18 @@
 @font-face {
-    font-family: sans-xbold;
-    src: url('../assets/fonts/open\ sans/OpenSans-ExtraBold');
+    font-family: ral-xbold;
+    src: url('../assets/fonts/Raleway/Raleway-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: ral-regular;
+    src: url('../assets/fonts/Raleway/Raleway-Regular.ttf');
 }
 
 body, header h1{
     margin: 0;
     padding: 0;
-    font-family: sans-xbold;
+    font-family: ral-regular;
+    font-family: ral-xbold;
 }
 
 header{
@@ -29,7 +35,13 @@ video{
 }
 
 .intro h1{
-    font-size: 45px;
+    letter-spacing: 1px;
+    font-size: 40px;
+}
+
+.intro h1 span{
+    color: #04C2C9;
+    /* color: #E31B6D; */
 }
 
 .jump-btn{
@@ -41,5 +53,20 @@ video{
     padding: 10px 20px;
     border: 2px solid #fff;
     font-size: 20px;
+    font-family: ral-regular;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+.intro a span{
+    font-size: 14px;
+}
+
+.intro a:hover{
+    background-color: #04C2C9;
+    border: 2px solid #04C2C9;
 }
 
