@@ -1,11 +1,11 @@
 @font-face {
     font-family: ral-xbold;
-    src: url('../assets/fonts/Raleway/Raleway-ExtraBold.ttf');
+    src: url('../assets/fonts/Raleway-ExtraBold.ttf');
 }
 
 @font-face {
     font-family: ral-regular;
-    src: url('../assets/fonts/Raleway/Raleway-Regular.ttf');
+    src: url('../assets/fonts/Raleway-Regular.ttf');
 }
 
 body, header h1{
@@ -50,7 +50,7 @@ video{
 .intro a{
     color: #fff;
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 10px 25px;
     border: 2px solid #fff;
     font-size: 20px;
     font-family: ral-regular;
@@ -61,12 +61,40 @@ video{
     -o-transition: 0.3s;
 }
 
-.intro a span{
-    font-size: 14px;
+.arrow{
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.arrow{
+    color: #fff;
+    font-size: 15px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
 }
 
 .intro a:hover{
     background-color: #04C2C9;
     border: 2px solid #04C2C9;
+    transform: scale(2,2);
+    -webkit-transform: scale(2,2);
+    -moz-transform: scale(2,2);
+    -ms-transform: scale(2,2);
+    -o-transform: scale(2,2);
 }
+
+.intro a:hover .arrow{
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+}
+
+
+
+
 
