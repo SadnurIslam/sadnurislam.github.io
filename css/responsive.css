@@ -1,0 +1,96 @@
+@media screen and (max-width: 950px){
+    h1{
+        font-size: 32px;
+    }
+
+    h2{
+        font-size: 24px;
+    }
+
+    h3{
+        font-size: 18px;
+    }
+
+    .section-body{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin: 40px auto;
+    }
+
+    .single-box{
+        width: 50%;
+        margin: 10px auto;
+    }
+    
+    .about-me{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .about-me img{
+        width: 50%;
+    }
+    
+    .skill-bar{
+        width: 100%;
+    }
+    
+    .single-bar{
+        width: 100%;
+    }
+
+    .navbar{
+        padding: 1px 5px;
+        border-bottom: 2px solid #04C2C9;
+    }
+
+    .navbar nav ul li a{
+        padding: 0px 10px;
+    }
+    
+}
+
+@media  screen and (max-width: 800px) {
+    .container{
+        width: 90%;
+    }
+
+    .intro a{
+        padding: 8px 18px;
+        font-size: 18px;
+    }
+
+    .navbar{
+        display: none;
+    }
+
+}
+
+@media  screen and (max-width: 700px) {
+    @font-face {
+        font-family: ral-bold;
+        src: url('../assets/fonts/Raleway-Bold.ttf');
+    }
+    
+    h1,h2,h3{
+        font-family: ral-bold;
+    }
+
+    .single-project-img{
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .ref-box{
+        width: 100%;
+    }
+
+    .ref-img img{
+        width: 55%;
+
+    }
+
+
+}

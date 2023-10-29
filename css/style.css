@@ -16,12 +16,26 @@
 *{
     box-sizing: border-box;
 }
-body, header h1{
+body{
     margin: 0;
     padding: 0;
+    font-family: ral-bold;
     font-family: ral-xbold;
     font-family: ral-italic;
     font-family: ral-regular;
+}
+
+h1,h2,h3{
+    font-family: ral-xbold;
+}
+
+p{
+    font-family: ral-regular;
+}
+
+header h1{
+    margin: 0;
+    padding: 0;
 }
 
 h1{
@@ -53,10 +67,6 @@ video{
     z-index: 1;
     text-align: center;
     /* padding: 35vh 0; */
-}
-
-.intro h1{
-    letter-spacing: 1px;
 }
 
 .intro h1 span{
@@ -149,10 +159,6 @@ video{
     font-size: 16px;
 }
 
-.navbar nav ul li a:active{
-    background-color: yellow;
-}
-
 .section-header h1{
     text-align: center;
     text-transform: uppercase;
@@ -200,7 +206,6 @@ section{
 }
 
 .single-box h2{
-    font-family: ral-xbold;
     margin-top: 10px;
     margin-bottom: 0px;
 }
@@ -230,12 +235,7 @@ section{
     -o-border-radius: 10px;
 }
 
-.about-me h2{
-    font-family: ral-xbold;
-}
-
 .about-me p{
-    font-family: ral-regular;
     line-height: 1.5;
 }
 
@@ -347,7 +347,7 @@ section{
 
 .single-project-img{
     width: 50%;
-    height: 50vh;
+    height: auto;
     float: left;
     padding: 10px;
 }
@@ -415,7 +415,6 @@ section{
 
 .ref-quota h3{
     text-transform: uppercase;
-    font-family: ral-xbold;
     margin-bottom: 2px;
 }
 
@@ -423,7 +422,6 @@ section{
     color: #facd96;
     margin-top: 0px;
     font-size: 15px;
-    font-family: ral-regular;
 }
 
 .contact{
@@ -484,7 +482,7 @@ input:focus,textarea:focus{
 
 .submit-btn{
     text-align: right;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
 }
 
 input[type="submit"]{
