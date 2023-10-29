@@ -17,24 +17,24 @@
                 <h1>Hello, I'm <span>Sadnur Islam</span></h1>
                 <h1>I'm a Full Stack Web Developer</h1>
                 <div class="jump-btn">
-                    <a href="#about">View about me <div class="arrow"><i class="fa-solid fa-arrow-right"></i></div></a>
-                </div>
-            </div>
-            <div class="navbar">
-                <div class="container">
-                    <nav>
-                        <ul>
-                            <li><a href="" >home</a></li>
-                            <li><a href="" >about</a></li>
-                            <li><a href="" >portfolio</a></li>
-                            <li><a href="" >blog</a></li>
-                            <li><a href="" >contact me</a></li>
-                        </ul>
-                    </nav>
+                    <a href="#aboutme">View about me <div class="arrow"><i class="fa-solid fa-arrow-right"></i></div></a>
                 </div>
             </div>
         </header>
-        <section class="about">
+        <div class="navbar">
+            <div class="container">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="#about" >about</a></li>
+                        <li><a href="#portfolio" >portfolio</a></li>
+                        <li><a href="#testimonial" >testimonial</a></li>
+                        <li><a href="#contact" >contact me</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <section id="about" class="about">
             <div class="container">
                 <div class="section-header">
                     <h1>About Me</h1>
@@ -42,117 +42,126 @@
                 </div>
                 <div class="section-body">
                     <div class="single-box">
-
+                        <i class="fa-solid fa-gauge-simple-high"></i>
                         <h2>Fast</h2>
                         <p>Fast load times and lag free interaction, my highest priority.
                         </p>
                     </div>
                     <div class="single-box">
-
+                        <i class="fa-regular fa-lightbulb"></i>
                         <h2>Intuitive</h2>
                         <p>Strong preference for easy to use, intuitive UX/UI.</p>
                     </div>
                     <div class="single-box">
-
+                        <i class="fa-solid fa-display"></i>
                         <h2>Responsive</h2>
-                        <p>Websites don't have to be static, I love making pages come to life.</p>
+                        <p>My layouts will work on any device, big or small.</p>
                     </div>
                     <div class="single-box">
-                        <img src="assets/img/rocket (1).png" alt="">
+                        <i class="fa-solid fa-rocket"></i>
                         <h2>Dynamic</h2>
                         <p>Websites don't have to be static, I love making pages come to life.</p>
                     </div>
                 </div>
-                <div class="section-main">
+                <div id="aboutme" class="section-main">
                     <div class="about-me">
-                        <img src="" alt="">
+                        <img src="assets/img/mypic.JPG" alt="">
                         <h2>Who's this guy?</h2>
                         <p>I'm a Front-End Developer for ChowNow in Los Angeles, CA.<br>
                         I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences.
-                        <br>
-                        <a href="">Let's make something special.</a>
                         </p>
+                        <p><a href="#">Let's make something special.</a></p>
                     </div>
-                    <div class="skills">
-                        <div class="skill-bar">
-                            <div class="css-name">
-                                <h4>CSS</h4>
+                    <div class="skill-bar">
+                        <!-- <h2>SKILLS</h2> -->
+                        <div class="single-bar">
+                            <div class="name-bar">
+                                <span>CSS</span>
                             </div>
-                            <div class="css-bar"></div>
-                            <div class="css-skill">
-                                <p>90%</p>
-                            </div>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="html-name">
-                                <h4>HTML</h4>
-                            </div>
-                            <div class="html-bar"></div>
-                            <div class="html-skill">
-                                <p>90%</p>
+                            <div class="fill-bar bar-90"></div>
+                            <div class="bar-gap bar-gap-10">
+                                <span>90%</span>
                             </div>
                         </div>
-                        <div class="skill-bar">
-                            <div class="react-name">
-                                <h4>React</h4>
+                        <div class="single-bar">
+                            <div class="name-bar">
+                                <span>HTML</span>
                             </div>
-                            <div class="react-bar"></div>
-                            <div class="react-skill">
-                                <p>80%</p>
-                            </div>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="js-name">
-                                <h4>JavaScript</h4>
-                            </div>
-                            <div class="js-bar"></div>
-                            <div class="js-skill">
-                                <p>80%</p>
+                            <div class="fill-bar bar-90"></div>
+                            <div class="bar-gap bar-gap-10">
+                                <span>90%</span>
                             </div>
                         </div>
-                        <div class="skill-bar">
-                            <div class="ang-name">
-                                <h4>Angular</h4>
+                        <div class="single-bar">
+                            <div class="name-bar">
+                                <span>React</span>
                             </div>
-                            <div class="ang-bar"></div>
-                            <div class="ang-skill">
-                                <p>50%</p>
-                            </div>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="node-name">
-                                <h4>Node.js</h4>
-                            </div>
-                            <div class="node-bar"></div>
-                            <div class="node-skill">
-                                <p>70%</p>
+                            <div class="fill-bar bar-80"></div>
+                            <div class="bar-gap bar-gap-20">
+                                <span>80%</span>
                             </div>
                         </div>
-                        <div class="skill-bar">
-                            <div class="ruby-name">
-                                <h4>Ruby/Rails</h4>
+                        <div class="single-bar">
+                            <div class="name-bar">
+                                <span>JavaScript</span>
                             </div>
-                            <div class="ruby-bar"></div>
-                            <div class="ruby-skill">
-                                <p>65%</p>
-                            </div>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="sql-name">
-                                <h4>MySql</h4>
-                            </div>
-                            <div class="sql-bar"></div>
-                            <div class="sql-name">
-                                <p>90%</p>
+                            <div class="fill-bar bar-80"></div>
+                            <div class="bar-gap bar-gap-20">
+                                <span>80%</span>
                             </div>
                         </div>
-                        <div class="skill-bar">
-                            <div class="ps-name">
-                                <h4>Photoshop</h4>
+                        <div class="single-bar">
+                            <div class="name-bar">
+                                <span>Angular</span>
                             </div>
-                            <div class="ps-bar"></div>
-                            <div class="ps-skill">
-                                <p>60%</p>
+                            <div class="fill-bar bar-60"></div>
+                            <div class="bar-gap bar-gap-40">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                        <div class="single-bar">
+                            <div class="name-bar">
+                                <span>Node.js</span>
+                            </div>
+                            <div class="fill-bar bar-65"></div>
+                            <div class="bar-gap bar-gap-35">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                        <div class="single-bar">
+                            <div class="name-bar">
+                                <span>Ruby/Rails</span>
+                            </div>
+                            <div class="fill-bar bar-60"></div>
+                            <div class="bar-gap bar-gap-40">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                        <div class="single-bar">
+                            <div class="name-bar">
+                                <span>Mysql</span>
+                            </div>
+                            <div class="fill-bar bar-90"></div>
+                            <div class="bar-gap bar-gap-10">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                        <div class="single-bar">
+                            <div class="name-bar">
+                                <span>Photoshop</span>
+                            </div>
+                            <div class="fill-bar bar-65"></div>
+                            <div class="bar-gap bar-gap-35">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                        <div class="single-bar">
+                            <div class="name-bar">
+                                <span>Sketch</span>
+                            </div>
+                            <div class="fill-bar bar-60"></div>
+                            <div class="bar-gap bar-gap-40">
+                                <span>60%</span>
                             </div>
                         </div>
                     </div>
@@ -160,7 +169,7 @@
             </div>
         </section>
 
-        <section class="project">
+        <section id="portfolio" class="project">
             <div class="container">
                 <div class="section-header">
                     <h1>projects</h1>
@@ -206,101 +215,93 @@
             </div>
         </section>
         
-        <section class="reference-section">
+        <section id="testimonial" class="reference-section">
             <div class="container">
-                <div class="section-head ref-head">
-                    <h1>WHAT POEPLE SAY ABOUT US</h1>
+                <div class="section-header">
+                    <h1>WHAT POEPLE SAY ABOUT ME</h1>
                     <hr>
-                    <p>Our clients love us!</p>
-    
+                    <p>My clients love me!</p>
                 </div>
-                <div class="ref-body work-box">
-                    <div class="first2">
-                        <div class="ref-box">
-                            <div class="ref-img">
-                                <img src="assets/img/team4.jpg" alt="">
-                            </div>
-                            <div class="ref-quota">
-                                <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident maxime pariatur sunt magni reprehenderit obcaecati!"</p>
-                                <h3>Chanel Iman</h3>
-                                <p>CEO of Pinterest</p>
-                            </div>
+                <div class="ref-body">
+                    <div class="ref-box">
+                        <div class="ref-img">
+                            <img src="assets/img/reference1.jpg" alt="">
                         </div>
-                        <div class="gapp"><p> </p></div>
-                        <div class="ref-box">
-                            <div class="ref-img">
-                                <img src="assets/img/team3.webp" alt="">
-                            </div>
-                            <div class="ref-quota">
-                                <p>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste earum magnam repellat reprehenderit?"</p>
-                                <h3>ADRIANA LIMA</h3>
-                                <p>Founder of Instagram</p>
-                            </div>
+                        <div class="ref-quota">
+                            <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident maxime pariatur sunt obcaecati!"</p>
+                            <h3>Cristiano Ronaldo</h3>
+                            <p>CEO of Lorem</p>
                         </div>
                     </div>
-                    <div class="second2">
-                        <div class="ref-box">
-                            <div class="ref-img">
-                                <img src="assets/img/team2.png" alt="">
-                            </div>
-                            <div class="ref-quota">
-                                <p>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel, ex iure? Ea, vitae."</p>
-                                <h3>ANNE HATHAWAY</h3>
-                                <p>Lead Designer at Behance</p>
-                            </div>
+                    <div class="ref-box">
+                        <div class="ref-img">
+                            <img src="assets/img/reference2.webp" alt="">
                         </div>
-                        <div class="gapp"><p> </p></div>
-                        <div class="ref-box">
-                            <div class="ref-img">
-                                <img src="assets/img/team1.jpg" alt="">
-                            </div>
-                            <div class="ref-quota">
-                                <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto reprehenderit eveniet alias doloremque placeat."</p>
-                                <h3>Emma Stone</h3>
-                                <p>Co-Founder of Shazam</p>
-                            </div>
+                        <div class="ref-quota">
+                            <p>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste earum magnam repellat reprehenderit?"</p>
+                            <h3>Tamim Iqbal</h3>
+                            <p>Founder of Ipsum.</p>
+                        </div>
+                    </div>
+                    <div class="ref-box">
+                        <div class="ref-img">
+                            <img src="assets/img/reference3.png" alt="">
+                        </div>
+                        <div class="ref-quota">
+                            <p>"Lorem, ipsum. Lorem, ipsum. ipsum dolor sit amet consectetur, adipisicing elit. Vel, ex iure? Ea, vitae."</p>
+                            <h3>Virat Kohli</h3>
+                            <p>Lead Designer at Dolor</p>
+                        </div>
+                    </div>
+                    <div class="ref-box">
+                        <div class="ref-img">
+                            <img src="assets/img/reference4.jpg" alt="">
+                        </div>
+                        <div class="ref-quota">
+                            <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto reprehenderit eveniet alias placeat."</p>
+                            <h3>Joe Root</h3>
+                            <p>Co-Founder of Sit</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-
-        <section class="contact">
-            <div class="container">
+        <section id="contact" class="contact">
+            <div class="container contact-container">
                 <div class="section-header contact-header">
-                    <h1>contact</h1>
+                    <h1>contact me</h1>
                     <hr>
                     <p>Have a question or want to work together?</p>
                 </div>
                 <div class="contact-form">
                     <form action="#">
                         <div class="name-in">
-                            <input type="text" name="" id="">
+                            <input type="text" name="name" id="nm" placeholder="Name">
                         </div>
                         <div class="email-in">
-                            <input type="email" name="" id="">
+                            <input type="email" name="email" placeholder="Enter Email">
                         </div>
                         <div class="msg-in">
-                            <textarea name="" id="" cols="30" rows="10"></textarea>
+                            <textarea name="message" placeholder="Your Message Here..."></textarea>
                         </div>
                         <div class="submit-btn">
                             <input type="submit" value="SUBMIT">
                         </div>
                     </form>
                 </div>
-                <div class="social link">
-                    <ul>
-                        <li><a href=""></a></li>
-                        <li><a href=""></a></li>
-                        <li><a href=""></a></li>
-                        <li><a href=""></a></li>
-                    </ul>
-                </div>
             </div>
         </section>
         <footer>
+            <div class="social-link">
+                <ul>
+                    <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-github"></i></a></li>
+                </ul>
+            </div>
             <p>
-                Created by Sadnur Islam 2023
+                Created by Sadnur Islam &#169;2023
             </p>
         </footer>
     </body>
