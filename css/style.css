@@ -33,8 +33,11 @@ header{
     width: 100%;
     height: 100vh;
     position: relative;
+    display: flex;
     /* box-sizing: border-box; */
     overflow: hidden;
+    align-items: center;
+    justify-content: center;
 }
 
 video{
@@ -49,7 +52,7 @@ video{
     color: #fff;
     z-index: 1;
     text-align: center;
-    padding: 35vh 0;
+    /* padding: 35vh 0; */
 }
 
 .intro h1{
@@ -144,6 +147,10 @@ video{
     color: #E31B6D;
     font-weight: 600;
     font-size: 16px;
+}
+
+.navbar nav ul li a:active{
+    background-color: yellow;
 }
 
 .section-header h1{
@@ -333,25 +340,22 @@ section{
     background-color: #F5F5F5;
 }
 
-.project-nav{
-    text-align: center;
-    margin-top: 8vh;
+.project-img{
     width: 80%;
-    margin: auto;
+    margin: 70px auto;
 }
 
-.project-nav ul li{
-    list-style: none;
-    display: inline-block;
+.single-project-img{
+    width: 50%;
+    height: 50vh;
+    float: left;
+    padding: 10px;
 }
 
-.project-nav ul li a{
-    text-decoration: none;
-    color: #000000;
-    text-transform: uppercase;
-    font-family: ral-regular;
-    font-weight: 600;
-    padding: 5px 50px;
+.single-project-img img{
+    width: 100%;
+    height: 100%;
+    float: left;
 }
 
 .section-header p{
@@ -424,18 +428,17 @@ section{
 
 .contact{
     padding-bottom: 40px;
+    background-color: black;
  }
 
  .contact-container{
     margin: auto;
-    padding: 100px 0;
-    background-color: #1d1a1a;
-    clip-path: polygon(50% 8%, 100% 0%, 100% 100%, 50% 92%, 0 100%, 0 0);
  }
 
 .contact-form{
     width: 60%;
     margin: 0px auto;
+    padding: 15px;
 }
 .contact-header h1{
     text-transform: capitalize;
@@ -529,13 +532,13 @@ input[type="submit"]{
 footer{
     background-color: #000;
     overflow: hidden;
-    padding: 15px 15px;
-    padding-bottom: 0px;
+    padding: 0px 15px;
+    border-top: 2px solid black;
 }
 
 footer p{
     text-align: right;
-    color: #fff;
+    color: #ffffff;
     font-family: 'Times New Roman', Times, serif;
     opacity: 0.7;
 }
