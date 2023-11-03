@@ -23,6 +23,7 @@ body{
     font-family: ral-xbold;
     font-family: ral-italic;
     font-family: ral-regular;
+    position: relative;
 }
 
 h1,h2,h3{
@@ -151,31 +152,18 @@ video{
     -o-transition: 0.3s;
 }
 
-.intro a:hover{
-    background-color: #04C2C9;
-    border: 2px solid #04C2C9;
-    transform: scale(2,2);
-    -webkit-transform: scale(2,2);
-    -moz-transform: scale(2,2);
-    -ms-transform: scale(2,2);
-    -o-transform: scale(2,2);
-}
-
-.intro a:hover .arrow{
-    transform: rotate(90deg);
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-}
-
 .navbar{
     background-color: #010001;
     padding: 3px 5px;
-    border-bottom: 3px solid #04C2C9;
+    border-bottom: 1px solid #47494928;
     position: sticky;
     top: 0;
-    z-index: 1;
+    z-index: 2;
+}
+
+.navbar .active{
+    color: #E31B6D !important;
+    font-weight: 600;
 }
 
 .navbar nav ul{
@@ -187,17 +175,17 @@ video{
     display: inline-block;
 }
 
-.navbar nav ul li a{
+.nav-link{
     text-transform: uppercase;
     text-decoration: none;
-    padding: 0px 15px;
-    color: #fff;
+    padding: 8px 12px !important;
+    color: #fff !important;
 }
 
-.navbar nav ul li a:hover{
-    color: #E31B6D;
-    font-weight: 600;
-    font-size: 16px;
+.nav-link:hover{
+    color: #E31B6D !important;
+    font-weight: 500;
+    font-size: 17px;
 }
 
 .section-header h1{
@@ -211,6 +199,7 @@ video{
     height: 4px;
     background-color: #000000;
     border: none;
+    margin: auto;
 }
 
 section{
