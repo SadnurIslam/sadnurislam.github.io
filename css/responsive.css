@@ -45,6 +45,10 @@
         width: 80%;
     }
 
+    .navbar{
+        display: none;
+    }
+
 }
 
 @media  screen and (max-width: 576px) {
@@ -78,4 +82,11 @@
         font-family: ral-regular;
     }
 
+    .name-bar span{
+        font-weight: 400;
+    }
+
+    .single-bar{
+        height: 22px;
+    }
 }

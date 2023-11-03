@@ -13,10 +13,10 @@
         <link rel="stylesheet" href="css/responsive.css">
     </head>
     <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
             <div class="container-fluid">
               <ul class="navbar-nav">
-                    <li><a class="nav-link" href="#header">home</a></li>
+                    <li><a class="nav-link" href="index.html">home</a></li>
                     <li><a class="nav-link" href="#about" >about</a></li>
                     <li><a class="nav-link" href="#portfolio" >portfolio</a></li>
                     <li><a class="nav-link" href="#testimonial" >testimonial</a></li>
@@ -37,44 +37,45 @@
         
         <section id="about" class="about">
             <div class="container">
-                <div class="section-header">
-                    <h1>About Me</h1>
-                    <hr>
+                <div class="row">
+                    <div class="section-header">
+                        <h1>About Me</h1>
+                        <hr>
+                    </div>
                 </div>
-                <div class="section-body">
-                    <div class="single-box">
+                <div class="row my-3">
+                    <div class="col-lg-3 col-sm-6 mt-5 single-box">
                         <i class="fa-solid fa-gauge-simple-high"></i>
                         <h2>Fast</h2>
                         <p>Fast load times and lag free interaction, my highest priority.
                         </p>
                     </div>
-                    <div class="single-box">
+                    <div class="col-lg-3 col-sm-6 mt-5 single-box">
                         <i class="fa-regular fa-lightbulb"></i>
                         <h2>Intuitive</h2>
                         <p>Strong preference for easy to use, intuitive UX/UI.</p>
                     </div>
-                    <div class="single-box">
+                    <div class="col-lg-3 col-sm-6 mt-5 single-box">
                         <i class="fa-solid fa-display"></i>
                         <h2>Responsive</h2>
                         <p>My layouts will work on any device, big or small.</p>
                     </div>
-                    <div class="single-box">
+                    <div class="col-lg-3 col-sm-6 mt-5 single-box">
                         <i class="fa-solid fa-rocket"></i>
                         <h2>Dynamic</h2>
                         <p>Websites don't have to be static, I love making pages come to life.</p>
                     </div>
                 </div>
-                <div id="aboutme" class="section-main">
-                    <div class="about-me">
+                <div class="row mt-5">
+                    <div class="col-md-6 col-12 about-me">
                         <img src="assets/img/mypic.JPG" alt="">
-                        <h2>Who's this guy?</h2>
+                        <h2 class="mt-2">Who's this guy?</h2>
                         <p>I'm a full stack Developer for ABCD institute in Dhaka, Bangladesh.<br>
                         I have serious passion for animations and creating intuitive, dynamic user experiences.
                         </p>
                         <p><a href="#">Let's make something special.</a></p>
                     </div>
-                    <div class="skill-bar">
-                        <!-- <h2>SKILLS</h2> -->
+                    <div class="col-md-6 skill-bar">
                         <div class="single-bar">
                             <div class="name-bar">
                                 <span>CSS</span>
@@ -167,27 +168,27 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <section id="portfolio" class="project">
-            <div class="container">
-                <div class="section-header">
-                    <h1>projects</h1>
-                    <hr>
-                </div>
-                <div class="project-img">
-                    <div class="single-project-img">
-                        <img src="assets/img/project1.jpg" alt="">
+            </section>
+    
+            <section id="portfolio" class="project">
+                <div class="container">
+                    <div class="section-header">
+                        <h1>projects</h1>
+                        <hr>
                     </div>
-                    <div class="single-project-img">
-                        <img src="assets/img/project3.jpg" alt="">
-                    </div>
-                    <div class="single-project-img">
-                        <img src="assets/img/project2.jpg" alt="">
-                    </div>
-                    <div class="single-project-img">
-                        <img src="assets/img/project4.jpg" alt="">
+                    <div class="project-img">
+                        <div class="single-project-img">
+                            <img src="assets/img/project1.jpg" alt="">
+                        </div>
+                        <div class="single-project-img">
+                            <img src="assets/img/project3.jpg" alt="">
+                        </div>
+                        <div class="single-project-img">
+                            <img src="assets/img/project2.jpg" alt="">
+                        </div>
+                        <div class="single-project-img">
+                            <img src="assets/img/project4.jpg" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
