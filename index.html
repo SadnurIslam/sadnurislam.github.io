@@ -12,8 +12,18 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/responsive.css">
     </head>
-    <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
-        <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+    <body>
+        <header>
+            <video src="assets/video/black.mp4" loop autoplay muted></video>
+            <div class="intro">
+                <div class="intro1"><h1>Hello, I'm <span>Sadnur Islam</span></h1></div>
+                <div class="intro2"><h1>I'm a Full Stack Web Developer</h1></div>
+                <div class="jump-btn">
+                    <a href="#about-me">View about me <div class="arrow"><i class="fa-solid fa-arrow-right"></i></div></a>
+                </div>
+            </div>
+        </header>
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
             <div class="container-fluid">
               <ul class="navbar-nav">
                     <li><a class="nav-link" href="index.html">home</a></li>
@@ -24,17 +34,6 @@
               </ul>
             </div>
         </nav>
-        <header id="header">
-            <video src="assets/video/black.mp4" loop autoplay muted></video>
-            <div class="intro">
-                <div class="intro1"><h1>Hello, I'm <span>Sadnur Islam</span></h1></div>
-                <div class="intro2"><h1>I'm a Full Stack Web Developer</h1></div>
-                <div class="jump-btn">
-                    <a href="#aboutme">View about me <div class="arrow"><i class="fa-solid fa-arrow-right"></i></div></a>
-                </div>
-            </div>
-        </header>
-        
         <section id="about" class="about">
             <div class="container">
                 <div class="row">
@@ -67,7 +66,7 @@
                     </div>
                 </div>
                 <div class="row mt-5">
-                    <div class="col-md-6 col-12 about-me">
+                    <div id="about-me" class="col-md-6 col-12 about-me">
                         <img src="assets/img/mypic.JPG" alt="">
                         <h2 class="mt-2">Who's this guy?</h2>
                         <p>I'm a full stack Developer for ABCD institute in Dhaka, Bangladesh.<br>
